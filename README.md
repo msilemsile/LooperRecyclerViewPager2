@@ -1,0 +1,2 @@
+# LooperRecyclerViewPager2
+使用ViewPager2实现
