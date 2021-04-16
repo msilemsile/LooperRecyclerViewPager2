@@ -38,7 +38,6 @@ public class LooperRecyclerViewPager2 extends FrameLayout {
     }
 
     private void init() {
-        LayoutInflater.from(getContext()).inflate(R.layout.lay_common_looper_view_pager, this);
         vp2Content = new ViewPager2(getContext());
         addView(vp2Content, new FrameLayout.LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.MATCH_PARENT));
         vp2Content.registerOnPageChangeCallback(new ViewPager2.OnPageChangeCallback() {
